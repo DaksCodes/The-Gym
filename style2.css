@@ -1,0 +1,237 @@
+html{ font-size:16px; /*base size setting*/
+    }
+  #navba{
+  padding-right: 1rem;
+}
+#navba li{ list-style-type: none;
+  
+  display: inline-block;
+  font-size: 1.25rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 1.56rem;}
+a.navbar{
+  text-decoration: none;
+color: white;}
+/*hover styling*/
+.navbar:hover{
+  background-color: rgb(60, 104, 146);
+  color: black;
+  cursor: pointer;
+  font-style: italic;
+}
+
+/*sticky element*/
+.sticker{
+  position: fixed;
+  right: 0.625rem;
+  height: 6.25rem;
+  width: 6.25rem;
+}
+body{
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  font-size: 16px; /*setting base font size*/
+}
+
+img.twowomen{
+  width: 78.125rem;
+  height: 32.89rem;
+}
+#welcome{
+  color: #fd3c3d;
+  text-align: center; 
+  font-size: 1.875rem; 
+  font-family: inherit; 
+  font-style: italic; 
+  margin-bottom: 0.625rem;
+}
+#quote{
+  margin-bottom: 3.125rem; font-size :1.25rem; text-align:center; font-style:italic;
+}
+span.activites{
+  font-style: italic; font-size: large;
+}
+img.activites{ display: inline-flex;
+width: 26.25rem;}
+#strength{
+  width: 25.9375rem;
+}
+#bhangra{
+  width: 26.25rem;
+  height: 31.25rem;
+}
+#video{
+  height: 31.25rem;
+  width:48.25rem;
+}
+#zumba{
+  width: 25.9375rem;
+}
+.row3,.row1{
+  display: inline-flex; text-align: center;
+}
+h3.ourstory{
+  color: red; margin: 1rem, 0, 0.5rem; text-align: center;
+}
+p.ourstory{
+  font-size: 1.875rem;
+  margin: 0px,0px,1rem; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding-left: 1rem; justify-content: center;
+}
+div.ourstory{
+  margin-top: 2.5rem; background-color: black; color: white; font-size: 1.875rem; display: inline-flex;
+}
+img.ourstory{
+  padding: 1rem 1rem;
+  width:58.8rem ;
+  height: 25.95rem;
+}
+div.banks{
+  display: inline-flex; text-align: center; margin-right: 0.3125rem; margin-left: 0.3125rem;
+}
+span.banks{
+  font-size: 1.25rem;
+}
+div.hotdeals { color: black; text-align: center;}
+img.banks { width: 21.25rem; height: 12.5rem;}
+
+div.advantages{
+  padding-bottom: 2rem; padding-right: 0.3125rem;  background-color: black; color: white; padding-top: 0.3125rem;
+}
+div.heading{
+  color: #fd3c3d; text-align: center; text-decoration: underline;
+}  
+  .part1{
+    display: inline-flex;
+  }
+  .cwhole { padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 50%;}
+  div.cwhole{display:block;
+  }
+  
+
+  p.why{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+.features{padding-left: 3rem; padding-top: 1rem;}
+.subfeatures{min-width: 25%;}
+
+img.featured{ height: 9.375rem; width: 14rem; margin-left: 0.3125rem;
+  padding-left: 3rem; padding-right: 2rem;
+}
+  div.freetrial{
+    color: white; 
+    background-color: rgb(81 176 185); 
+    padding-top: 1rem; 
+    padding-left: 1rem;
+    padding-bottom: 5rem; 
+    border-radius: 0.3125rem; 
+    border-style: double; 
+    margin-top: 0.625rem;
+  }
+  div.details{
+    padding-left: 0.3125rem;
+    padding-bottom: 0.3125rem; 
+    padding-right: 0.3125rem; 
+    min-width: 30%; 
+    font-size: 1.25rem;
+  }
+  input.details{
+    
+    width: 20rem;
+  }
+  div.branch{
+    margin-left: 1.5rem; 
+    margin-top: 1rem; 
+    padding-left: 0.3125rem;
+  }
+  input.branch{
+    width: 70.5rem;
+  }
+
+.btn{
+  border-radius: 1rem;
+  border: none; 
+  float: inline-end; 
+  padding-right: 0.3125rem;  
+  height: 3rem; 
+  margin-top: 1rem; background-color: rgb(27 187 21 / 61%); 
+  margin-right: 50%; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: black;
+}
+.btn:hover{
+  background-color: black;
+  color: #fd3c3d;
+  cursor: pointer;
+}
+div.list{
+  column-count: 4; 
+  padding-left: 3.43rem; 
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+li.net{
+  padding-top:0.4rem;
+  padding-bottom: 0.4rem;
+  font-size: 1rem;
+}
+span.social{
+  text-align: center;
+  color: white; font-size: 1.25rem; margin-bottom: 1.5625rem; margin-top: 1rem;
+}
+img.square{
+  width: 3.125rem;
+  height: 3.125rem;
+}
+img.rectangle{
+  height: 3.125rem;
+  width: 4.375rem;
+}
+div.FAQS{
+  margin-top: 3.75rem;
+  padding-bottom: 0.3125rem;
+  background-color: rgba(0, 0, 0, 0.47);
+}
+div.faqc1{
+  width: 90%; padding-left: 0.3125rem;
+}
+div.faqc2{
+  padding-left: 1.5625rem; margin-left: 0.5rem;
+}
+.question{
+  font-size: 1.5625rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(162, 142, 128);
+  padding-top: 0.75rem;
+}
+.answer{
+  font-size: 1.25rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+body.FAQS{
+  background-image: url(https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=pexels-victor-freitas-841130.jpg&fm=jpg);
+  background-size: cover;
+  background-position: center;
+}
+body.outro{
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+  background-size: cover;
+  background-position: center;
+}
+div.outro{
+  background-color: rgba(128, 128, 128, 0.74);
+  color: #3cedfd;
+  font-size: 1.25rem;
+  margin-top: 20%;
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  padding-top: 0.3125rem;
+}
